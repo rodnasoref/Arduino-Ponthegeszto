@@ -66,10 +66,13 @@ Paraméterek és Beállítások
 - Manuális hegesztés (MANUAL): Ebben a módban a BTN\_CONFIRM (D9) gomb megnyomásával lehet kézzel elindítani a hegesztési ciklust. 
 
 
-Szükséges Könyvtárak
+Szükséges Könyvtárak:
 
  A projekt lefordításához a következő Arduino könyvtárakra van szükség: 
 
  `U8g2lib` - Az OLED kijelző (SH1106 128x64 I2C) vezérléséhez. 
+
  `Wire` - Az I2C kommunikációhoz. 
+
+
  `EEPROM` - A beállítások memóriába mentéséhez.
